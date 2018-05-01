@@ -1,0 +1,10 @@
+[{"layer":1,"maxLevel":100,"unlockGold":800,"workerCapacity":1,"workerNum":1,"workerWalkSpeed":1,"workerWalkDistance":5,"workerDigSpeed":1},
+{"layer":2,"maxLevel":100,"unlockGold":"1k","workerCapacity":2,"workerNum":2,"workerWalkSpeed":2,"workerWalkDistance":5,"workerDigSpeed":2},
+{"layer":3,"maxLevel":100,"unlockGold":"3k","workerCapacity":3,"workerNum":2,"workerWalkSpeed":3,"workerWalkDistance":5,"workerDigSpeed":3},
+{"layer":4,"maxLevel":100,"unlockGold":"10k","workerCapacity":4,"workerNum":3,"workerWalkSpeed":4,"workerWalkDistance":5,"workerDigSpeed":4},
+{"layer":5,"maxLevel":100,"unlockGold":"1m","workerCapacity":5,"workerNum":3,"workerWalkSpeed":5,"workerWalkDistance":5,"workerDigSpeed":5},
+{"layer":6,"maxLevel":100,"unlockGold":"1b","workerCapacity":6,"workerNum":4,"workerWalkSpeed":6,"workerWalkDistance":5,"workerDigSpeed":6},
+{"layer":7,"maxLevel":100,"unlockGold":"3t","workerCapacity":7,"workerNum":4,"workerWalkSpeed":7,"workerWalkDistance":5,"workerDigSpeed":7},
+{"layer":8,"maxLevel":100,"unlockGold":"7aa","workerCapacity":8,"workerNum":4,"workerWalkSpeed":8,"workerWalkDistance":5,"workerDigSpeed":8},
+{"layer":9,"maxLevel":100,"unlockGold":"7ab","workerCapacity":9,"workerNum":4,"workerWalkSpeed":9,"workerWalkDistance":5,"workerDigSpeed":9},
+{"layer":10,"maxLevel":100,"unlockGold":"100ac","workerCapacity":10,"workerNum":4,"workerWalkSpeed":10,"workerWalkDistance":5,"workerDigSpeed":10}]

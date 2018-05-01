@@ -1,0 +1,10 @@
+[{"level":1,"costGold":800,"getMoney":0,"totalTransPerS":100,"transValuePerS":1,"transSpeed":1,"unloadSpeed":1},
+{"level":2,"costGold":"1k","getMoney":0,"totalTransPerS":"1k","transValuePerS":2,"transSpeed":2,"unloadSpeed":2},
+{"level":3,"costGold":"3k","getMoney":0,"totalTransPerS":"3k","transValuePerS":2,"transSpeed":3,"unloadSpeed":3},
+{"level":4,"costGold":"10k","getMoney":0,"totalTransPerS":"10k","transValuePerS":3,"transSpeed":4,"unloadSpeed":4},
+{"level":5,"costGold":"1m","getMoney":0,"totalTransPerS":"1m","transValuePerS":3,"transSpeed":5,"unloadSpeed":5},
+{"level":6,"costGold":"1b","getMoney":0,"totalTransPerS":"1b","transValuePerS":4,"transSpeed":6,"unloadSpeed":6},
+{"level":7,"costGold":"3t","getMoney":0,"totalTransPerS":"3t","transValuePerS":4,"transSpeed":7,"unloadSpeed":7},
+{"level":8,"costGold":"7aa","getMoney":0,"totalTransPerS":"7aa","transValuePerS":4,"transSpeed":8,"unloadSpeed":8},
+{"level":9,"costGold":"7ab","getMoney":0,"totalTransPerS":"7ab","transValuePerS":4,"transSpeed":9,"unloadSpeed":9},
+{"level":10,"costGold":"100ac","getMoney":0,"totalTransPerS":"100ac","transValuePerS":4,"transSpeed":10,"unloadSpeed":10}]

@@ -1,0 +1,10 @@
+[{"level":1,"costGold":800,"getMoney":0,"totalLoadPerS":100,"loadValuePerS":1,"moveSpeed":1,"loadSpeed":1},
+{"level":2,"costGold":"1k","getMoney":0,"totalLoadPerS":"1k","loadValuePerS":2,"moveSpeed":2,"loadSpeed":2},
+{"level":3,"costGold":"3k","getMoney":0,"totalLoadPerS":"3k","loadValuePerS":2,"moveSpeed":3,"loadSpeed":3},
+{"level":4,"costGold":"10k","getMoney":0,"totalLoadPerS":"10k","loadValuePerS":3,"moveSpeed":4,"loadSpeed":4},
+{"level":5,"costGold":"1m","getMoney":0,"totalLoadPerS":"1m","loadValuePerS":3,"moveSpeed":5,"loadSpeed":5},
+{"level":6,"costGold":"1b","getMoney":0,"totalLoadPerS":"1b","loadValuePerS":4,"moveSpeed":6,"loadSpeed":6},
+{"level":7,"costGold":"3t","getMoney":0,"totalLoadPerS":"3t","loadValuePerS":4,"moveSpeed":7,"loadSpeed":7},
+{"level":8,"costGold":"7aa","getMoney":0,"totalLoadPerS":"7aa","loadValuePerS":4,"moveSpeed":8,"loadSpeed":8},
+{"level":9,"costGold":"7ab","getMoney":0,"totalLoadPerS":"7ab","loadValuePerS":4,"moveSpeed":9,"loadSpeed":9},
+{"level":10,"costGold":"100ac","getMoney":0,"totalLoadPerS":"100ac","loadValuePerS":4,"moveSpeed":10,"loadSpeed":10}]
