@@ -119,20 +119,21 @@ function processSheet(rawData) {
     }
 
 
-    let value = []
-    let item = ['']
-    let item1 = ['商品列表']
-    value.push(item)
-    value.push(item1)
+    let rowList = []
+    let row1 = ['']
+    let row2 = ['商品列表']
+    rowList.push(row1)
+    rowList.push(row2)
     for (let day of days) {
-        item.push(day + '日')
-        item.push('')
-        item.push('')
-        item1.push('单价')
-        item1.push('数量')
-        item1.push('总额')
+        row1.push(day + '日')
+        row1.push('')
+        row1.push('')
+        row2.push('单价')
+        row2.push('数量')
+        row2.push('总额')
     }
 
+    //名字进行排序
     let keys = new Array()
     for (let key in retData) {
         keys.push(key)
@@ -142,28 +143,32 @@ function processSheet(rawData) {
     for (let key of keys) {
         let valueArray = retData[key]
         let name = key
-        let item = []
-        item.push(name)
+        let row = []
+        row.push(name)
         for (let tempday of days) {
-            let count
-            let price
-            let money
+            let count = ''
+            let price = ''
+            let money = ''
             for (let value of valueArray) {
                 let day = value.day
                 if (day == tempday) {
-                    count = value.count
-                    price = value.price
-                    money = value.money
-                    break
+                    if (price != '') {
+                        count += '/'
+                        price += '/'
+                        money += '/'
+                    }
+                    count += value.count + ''
+                    price += value.price + ''
+                    money += value.money + ''
                 }
             }
-            item.push(count)
-            item.push(price)
-            item.push(money)
+            row.push(count)
+            row.push(price)
+            row.push(money)
         }
-        value.push(item)
+        rowList.push(row)
     }
-    return value
+    return rowList
 }
 
 function writeExcel(data) {
