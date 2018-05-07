@@ -143,30 +143,44 @@ function processSheet(rawData) {
     for (let key of keys) {
         let valueArray = retData[key]
         let name = key
-        let row = []
-        row.push(name)
+        if(name == '五花肉（整片）'){
+            let a = 10
+        }
+        let temprowlist = []
+        let dayIndex = -1
         for (let tempday of days) {
-            let count = ''
-            let price = ''
-            let money = ''
+            dayIndex++
+            let index = 0 
             for (let value of valueArray) {
                 let day = value.day
                 if (day == tempday) {
-                    if (price != '') {
-                        count += '/'
-                        price += '/'
-                        money += '/'
+                    let tempRow = null
+                    if(temprowlist.length > index){
+                        tempRow = temprowlist[index]
+                    }else{
+                        tempRow = []
+                        temprowlist.push(tempRow)
+                        tempRow.push(name)
                     }
-                    count += value.count + ''
-                    price += value.price + ''
-                    money += value.money + ''
+
+                    while(tempRow.length-1 < dayIndex * 3){
+                        tempRow.push('')
+                        tempRow.push('')
+                        tempRow.push('')
+                    }
+
+
+                    index++
+
+                    tempRow.push(value.count)
+                    tempRow.push(value.price)
+                    tempRow.push(value.money)
                 }
             }
-            row.push(count)
-            row.push(price)
-            row.push(money)
         }
-        rowList.push(row)
+        for(let tempRow of temprowlist){
+            rowList.push(tempRow)
+        }
     }
     return rowList
 }
